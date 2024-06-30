@@ -1,0 +1,56 @@
+
+.podcast-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: rgba(255,255,255,0.5);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    width: 300px;
+    flex-wrap: wrap;
+    transition: 0.2s;
+}
+
+.podcast-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 4px;
+}
+
+.podcast-card h3 {
+    margin: 10px 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+.button-wrapper {
+    margin-top: 10px;
+}
+.card-title{
+    text-decoration: none;
+}
+.podcast-card a {
+ text-decoration: none;
+}
+.group{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 50px;
+    padding: 20px;
+    margin: 10px;
+}
+@media (max-width:768px){
+    .podcast-card{
+        width: 100%;
+        height: auto;
+    }
+    .group{
+        width: 100%;
+        height: auto;   
+    }
+}

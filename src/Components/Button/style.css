@@ -1,0 +1,14 @@
+.custom-btn{
+    background-color: var(--dark);
+    color: var(--grey);
+    padding: 1rem;
+    border: 2px solid var(--grey);
+    border-radius: 0.5rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.custom-btn:hover{
+    background-color: var(--grey);
+    color: var(--white);
+    border: none;
+}
