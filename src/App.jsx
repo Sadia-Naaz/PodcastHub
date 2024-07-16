@@ -59,6 +59,7 @@ return unsubscribeAuth;
     <Route path="/" element={<SignUp/>}/>
     <Route element={<PrivateRoute/>}>
     <Route path="/profile" element={<Profile/>}/>
+    <Route path="/profile/podcasts" element={<PodcastPage/>}/>
     <Route path="/podcasts" element={<PodcastPage/>}/>
     <Route path="/create-podcast" element={<CreatePodcast/>}/>
     <Route path="/podcasts/:id" element={<PodcastDetails/>}/>
